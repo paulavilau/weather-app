@@ -1,16 +1,15 @@
-# weather_app
+# 🌤️ Clima - Weather App
 
-A new Flutter project.
+Clima is a Flutter-based weather app that provides real-time weather updates for different cities. The app integrates with Firebase Authentication for user login and uses the OpenWeatherMap API for fetching weather data. It features a clean UI with dynamic backgrounds and supports location-based weather updates.
 
-## Getting Started
+## Features
+- Real-time weather updates
+- Firebase Authentication
+- Location-based weather
+- Beautiful UI with dynamic backgrounds
 
-This project is a starting point for a Flutter application.
+##  Tech Stack
+- **Flutter & Dart**
+- **Firebase Authentication**
+- **OpenWeatherMap API**
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
