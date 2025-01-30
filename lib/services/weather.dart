@@ -1,8 +1,9 @@
 import 'package:clima/services/location.dart';
 import 'package:clima/services/networking.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-// Constante pentru cheia API și URL-ul OpenWeatherMap
-const apiKey = '37999de367e97507ab9a7bae6fc85d5f';
+// Constanta pentru URL-ul OpenWeatherMap
+String apiKey = dotenv.env['OPENWEATHER_API_KEY'] ?? "";
 const openWeatherMapURL = 'https://api.openweathermap.org/data/2.5/weather';
 
 class WeatherModel {
